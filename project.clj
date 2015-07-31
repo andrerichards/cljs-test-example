@@ -17,6 +17,9 @@
                                                    :optimizations :none
                                                    :pretty-print false}}
                                  :test {:source-paths ["src" "test"]
+                                        :notify-command ["phantomjs"
+                                                         "resources/test/test.js"
+                                                         "resources/test/test.html"]
                                         :compiler {:output-to "resources/test/compiled.js"
                                                    :optimizations :whitespace
                                                    :pretty-print true}}}
