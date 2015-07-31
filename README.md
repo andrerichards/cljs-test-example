@@ -1,6 +1,6 @@
 # cljs-test-example
 
-Example project with `cljs.test`, with auto-test on cljsbuild.
+Example project with `cljs.test`, enabling auto-test on cljsbuild.
 
 This is a fork of [nvbn/cljs-test-example](https://github.com/nvbn/cljs-test-example), with one change made to <code>project.clj</code>: to enable cljs tests to be run everytime cljsbuild compiles changes.
 
