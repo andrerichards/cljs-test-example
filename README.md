@@ -2,6 +2,8 @@
 
 Example project with `cljs.test`, enabling auto-test on cljsbuild.
 
+When you run <code>lein cljsbuild auto</code>, everytime cljsbuild picks up a change, and compiles your cljs, it will kick-off your unit tests as well. 
+
 This is a fork of [nvbn/cljs-test-example](https://github.com/nvbn/cljs-test-example), with one change made to <code>project.clj</code>: to enable cljs tests to be run everytime cljsbuild compiles changes.
 
 This is done with <code>:notify-command</code> under the <code>:test</code> build.
